@@ -1,6 +1,8 @@
 # Go AI Agent
 
-A simple command-line chat interface for Claude AI using the Anthropic Go SDK.
+A simple command-line chat agent with multiple in-built tools for file querying and manipulation.
+
+Uses Claude 3.7 via the Anthropic Go SDK.
 
 ## Prerequisites
 
@@ -36,10 +38,10 @@ go mod download
 
 ## Running the Application
 
-Run the chat interface:
+Run the chat interface (main.go):
 
 ```bash
-go run main.go
+go run .
 ```
 
 The application will start a chat session where you can interact with Claude. Type your messages and press Enter to send. Use Ctrl+C to exit the chat.
